@@ -1,5 +1,8 @@
 # Figmass Plugin
 
+Figmass plugin can take your SASS files with CSS rules and creates the same styles in Figma. Or update the existing.
+Currently it can create only text and paint styles. The upcomng update will cover all styles.
+
 ## Currently supported:
 
 Text styles:
