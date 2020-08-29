@@ -15,6 +15,7 @@ text-transform:             uppercase OR lowercase OR title
 letter-spacing:             100% OR 10px  
 text-decoration:            underline OR line-through  
 text-indent:                32px;
+text-transform:             uppercase;       // "uppercase", "lowercase","title"(Figma custom), "none"
 
 Paint styles:
 ---------
