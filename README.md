@@ -5,6 +5,7 @@ Currently it can create only text and paint styles. The upcomng update will cove
 
 ## Currently supported:
 
+```
 Text styles:
 --------
 font-size:                  10px; OR 10
@@ -20,3 +21,4 @@ text-transform:             uppercase;       // "uppercase", "lowercase","title"
 Paint styles:
 ---------
 background-color:           red;
+```
