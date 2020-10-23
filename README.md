@@ -1,7 +1,7 @@
-# Figmass Plugin
+# Style Station Plugin
 
-Figmass plugin can take your SASS files with CSS rules and creates the same styles in Figma. Or update the existing.
-Currently it can create only text and paint styles. The upcomng update will cover all styles.
+Style Station Plugin (ex-Figmass) plugin can take your SASS or LESS files with CSS rules and create the same styles in Figma. Or update the existing.
+Currently it can supports only text and paint styles. 
 
 ## Currently supported:
 
@@ -20,4 +20,5 @@ text-transform:             uppercase;  // "uppercase", "lowercase","title"(Figm
 Paint styles:
 ---------
 background-color:           red;
+background-color:           #FF00FF;
 ```
