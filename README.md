@@ -10,7 +10,6 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 
 <img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/export.png"/>
 
-
 ## Currently supported styles:
 
 ```
@@ -30,3 +29,6 @@ Paint styles:
 background-color:           red;
 background-color:           #FF00FF;
 ```
+
+## Community
+https://spectrum.chat/style-station
