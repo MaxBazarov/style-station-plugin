@@ -3,7 +3,15 @@
 Style Station Plugin (ex-Figmass) plugin can take your SASS or LESS files with CSS rules and create the same styles in Figma. Or update the existing.
 Currently it can supports only text and paint styles. 
 
-## Currently supported:
+<img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/import.png"/>
+<img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/imported.png"/>
+
+Also Style Station can export styles from Figma to SASS or LESS file.
+
+<img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/export.png"/>
+
+
+## Currently supported styles:
 
 ```
 Text styles:
