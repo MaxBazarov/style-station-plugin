@@ -33,4 +33,4 @@ background-color:           #FF00FF;
 ```
 
 ## Community
-https://spectrum.chat/style-station
+https://github.com/MaxBazarov/style-station-plugin/discussions
