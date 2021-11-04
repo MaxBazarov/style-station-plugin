@@ -44,6 +44,7 @@ You can update the following Figma objects.
         background-color: #FFFFFF;
     }
 }
+```
 
 ## Community
 https://github.com/MaxBazarov/style-station-plugin/discussions
