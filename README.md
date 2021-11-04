@@ -14,7 +14,7 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 
 ## Currently supported styles:
 
-```
+```css
 .TextStyle {
   font-size:                  10px; // OR 10
   font-family:                Times;
@@ -29,6 +29,21 @@ Also Style Station can export styles from Figma to SASS or LESS file.
   background-color:           red;   //  #FF00FF;
 }
 ```
+## Supported Targets
+You can update the following Figma objects.
+
+```css
+// Update style
+.MyStyles .Group .TextLarge{
+    font-size:                40px;
+}
+
+// Update any node properties
+#MyWidgets #Buttons #Submit{
+    .Back{
+        background-color: #FFFFFF;
+    }
+}
 
 ## Community
 https://github.com/MaxBazarov/style-station-plugin/discussions
