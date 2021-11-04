@@ -15,21 +15,19 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 ## Currently supported styles:
 
 ```
-Text styles:
---------
-font-size:                  10px; // OR 10
-font-family:                Times;
-font-weight:                Regular;
-line-height:                100%; // OR 10px;
-letter-spacing:             100%; // OR 10px  
-text-decoration:            underline;// OR line-through  
-text-indent:                32px;
-text-transform:             uppercase;  // "uppercase", "lowercase","title"(Figma custom), "none"
-
-Paint styles:
----------
-background-color:           red;
-background-color:           #FF00FF;
+.TextStyle {
+  font-size:                  10px; // OR 10
+  font-family:                Times;
+  font-weight:                Regular;
+  line-height:                100%; // OR 10px;
+  letter-spacing:             100%; // OR 10px  
+  text-decoration:            underline;// OR line-through  
+  text-indent:                32px;
+  text-transform:             uppercase;  // "uppercase", "lowercase","title"(Figma custom), "none"
+}
+.PaintStyle{
+  background-color:           red;   //  #FF00FF;
+}
 ```
 
 ## Community
