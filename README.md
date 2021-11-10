@@ -3,7 +3,9 @@
 https://www.figma.com/community/plugin/909833368999832351/Style-Station
 
 Style Station Plugin (ex-Figmass) plugin can take your SASS or LESS files with CSS rules and create the same styles in Figma. Or update the existing.
-Currently it can supports only text and paint styles. 
+Currently it can supports only text and paint styles. But also it can operates with layers.
+
+### [Check this article](https://medium.com/@max_39664/style-station-5d5e81998e33) to get a detailed overview with examples.
 
 <img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/import.png"/>
 <img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/imported.png"/>
