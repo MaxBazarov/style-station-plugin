@@ -30,6 +30,11 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 .PaintStyle{
   background-color:           red;   //  #FF00FF;
 }
+#Rectangle{
+  border-color:               blue; 
+  border-width:               10px;
+  background-color:           red;   //  #FF00FF;
+}
 ```
 ## Supported Targets
 You can update the following Figma objects.
@@ -40,11 +45,11 @@ You can update the following Figma objects.
     font-size:                40px;
 }
 
-// Update any node properties
-#MyWidgets #Buttons #Submit{
-    .Back{
-        background-color: #FFFFFF;
-    }
+// Update frame child properties
+#MyFrame .Back{
+  border-color:         blue; 
+  border-width:         10px;
+  background-color:     #FFFFFF;
 }
 ```
 
