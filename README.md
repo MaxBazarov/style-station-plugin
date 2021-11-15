@@ -32,6 +32,7 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 }
 #Rectangle{
   border-color:               blue; 
+  border-color:               red; 
   border-width:               10px;
   background-color:           red;   //  #FF00FF;
 }
