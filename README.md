@@ -35,6 +35,7 @@ Also Style Station can export styles from Figma to SASS or LESS file.
   border-color:               red; 
   border-width:               10px;
   background-color:           red;   //  #FF00FF; 
+  -pt-border-update:          true;  // Use it if you want to replace existing borders, instead of adding a new one
 }
 ```
 ## Supported Targets
