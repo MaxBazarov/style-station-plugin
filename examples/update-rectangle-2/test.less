@@ -1,0 +1,20 @@
+#Frame__1{
+    .Rectangle,.Rectangle__1{
+        border-width:           10px;
+        border-color:           green;
+        border-color:           red;
+        background-color:     blue;
+    }
+}
+
+// The new border will replace two alredy existing
+#Frame__1 .Rectangle{
+    border-color:             yellow;
+}
+
+// The new border will be added to alredy existing
+#Frame__1 .Rectangle__1{
+    border-color:             orange;
+    -pt-border-update:          true;
+}
+
