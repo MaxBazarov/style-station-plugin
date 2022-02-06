@@ -1,0 +1,10 @@
+$colors: (
+    "primary": #0000FF, "danger": #FF0000, "success":#00FF00);
+
+@each $name, $value in $colors{
+    .Styles .Background .#{$name}{
+        background-color:     $value;
+    }    
+}
+
+
