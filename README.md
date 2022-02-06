@@ -21,7 +21,7 @@ Also Style Station can export styles from Figma to SASS or LESS file.
   font-size:                  10px; // OR 10
   font-family:                Times;
   font-weight:                Regular;
-  line-height:                100%; // OR 10px;
+  line-height:                100%; // OR 10px OR 1.2 (multiplier for font-size) OR AUTO
   letter-spacing:             100%; // OR 10px  
   text-decoration:            underline;// OR line-through  
   text-indent:                32px;
