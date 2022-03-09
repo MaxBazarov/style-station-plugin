@@ -6,8 +6,12 @@ Style Station Plugin (ex-Figmass) plugin can take your [SASS](https://blog.logro
 Currently it can supports only text and paint styles. But also it can operates with layers.
 
 ### [Check this article](https://medium.com/@max_39664/style-station-5d5e81998e33) to get a detailed overview with examples.
+### You can support the development [here](https://paypal.me/maxbazarov)
 
-<img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/import.png"/>
+<img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/apply-upload.png"/>
+<img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/apply-edit.png"/>
+<img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/apply-files.png"/>
+<img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/apply-edit-cloud.png"/>
 <img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/imported.png"/>
 
 Also Style Station can export styles from Figma to SASS or LESS file.
