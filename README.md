@@ -41,6 +41,9 @@ Also Style Station can export styles from Figma to SASS or LESS file.
   background-color:           red;   //  #FF00FF; 
   -pt-border-update:          true;  // Use it if you want to replace existing borders, instead of adding a new one
 }
+#Group{
+  padding:                    10px; // currently only one value for left,right,top and bottom
+}
 ```
 ## Supported Targets
 You can update the following Figma objects.
@@ -51,11 +54,15 @@ You can update the following Figma objects.
     font-size:                40px;
 }
 
-// Update any layer properties
+// Update any layer properties inside a frame or component
 #MyFrame .Back{
   border-color:         blue; 
   border-width:         10px;
   background-color:     #FFFFFF;
+}
+// Or update any group node itself
+#My__Component{
+  padding: 10px;
 }
 ```
 
