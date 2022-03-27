@@ -1,6 +1,6 @@
 # Style Station Plugin
 
-[Install plugin](https://www.figma.com/community/plugin/909833368999832351/Style-Station)
+[Install Style Station](https://www.figma.com/community/plugin/909833368999832351/Style-Station)
 
 The Style Station Plugin plugin can take your [SASS](https://blog.logrocket.com/the-definitive-guide-to-scss/) or [LESS](https://tutorialzine.com/2015/07/learn-less-in-10-minutes-or-less) files with CSS rules and create the same styles in Figma. Or update the existing.
 Currently it can supports only text and paint styles. But also it can operates with layers.
@@ -67,4 +67,4 @@ You can update the following Figma objects.
 ```
 
 ## Community
-[https://github.com/MaxBazarov/style-station-plugin/discussions]
+[Github Discussions](https://github.com/MaxBazarov/style-station-plugin/discussions)
