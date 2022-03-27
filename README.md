@@ -48,7 +48,7 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 ## Supported Targets
 You can update the following Figma objects.
 
-```css
+```less
 // Update style
 .MyStyles .Group .TextLarge{
     font-size:                40px;
