@@ -20,7 +20,7 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 
 ## Currently supported styles:
 
-```css
+```less
 .TextStyle {
   font-size:                  10px; // OR 10
   font-family:                Times;
