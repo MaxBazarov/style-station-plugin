@@ -62,7 +62,11 @@ You can update the following Figma objects.
 }
 // Or update any group node itself
 #My__Component{
-  padding: 10px;
+  padding: 10px; // OR 10px 10px  OR 10px 20px 30px OR 10px 10px 20px 20px
+  pagging-top: 10px;
+  pagging-left: 10px;
+  pagging-bottom: 10px;
+  pagging-right: 10px;
 }
 ```
 
