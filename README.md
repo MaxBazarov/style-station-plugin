@@ -33,6 +33,8 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 }
 .PaintStyle{
   background-color:           red;   //  #FF00FF;
+  OR
+  color:                      red;   //  #FF00FF;
 }
 #Rectangle{
   border-color:               blue; 
