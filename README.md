@@ -30,6 +30,8 @@ Also Style Station can export styles from Figma to SASS or LESS file.
   text-decoration:            underline;// OR line-through  
   text-indent:                32px;
   text-transform:             uppercase;  // "uppercase", "lowercase","title"(Figma custom), "none"
+  text-indent:                100; 
+  -pt-paragraph-spacing:      12;  // The vertical distance between paragraphs
 }
 .PaintStyle{
   background-color:           red;   //  #FF00FF;
