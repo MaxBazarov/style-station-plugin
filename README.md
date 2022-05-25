@@ -77,5 +77,15 @@ You can update the following Figma objects.
 }
 ```
 
+## Color definition types
+{
+  background-color:  #FF00FF;
+  background-color:  #FF00FFBB;
+  background-color:  blue;
+  background-color:  hsla(240,100%,50%,0.5);
+  background-color:  hsl(240,100%,50%);
+}
+
+
 ## Community
 [Github Discussions](https://github.com/MaxBazarov/style-station-plugin/discussions)
