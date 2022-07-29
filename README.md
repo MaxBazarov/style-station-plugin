@@ -18,9 +18,10 @@ Also Style Station can export styles from Figma to SASS or LESS file.
 
 <img width="755" src="https://raw.githubusercontent.com/MaxBazarov/style-station-plugin/master/screenshots/export.png"/>
 
-## Currently supported styles:
+## Currently supported CSS style:
 
-```less
+```css
+// FOR FIGMA TEXT STYLES
 .TextStyle {
   font-size:                  10px; // OR 10
   font-family:                Times;
@@ -36,17 +37,23 @@ Also Style Station can export styles from Figma to SASS or LESS file.
                                     // Not a text sttyle property actually, so it will be applied to 
                                     // text nodes which the selected style assigned to
 }
+// FOR FIGMA PAINT STYLES
 .PaintStyle{
   background-color:           red;   //  #FF00FF;
   OR
   color:                      red;   //  #FF00FF;
 }
+// FOR STANDALONE FRAMES, SHAPES, RECTANGLES NODES
 #Rectangle{
   border-color:               blue; 
   border-color:               red; 
   border-width:               10px;
-  background-color:           red;   //  #FF00FF; 
+  background-color:           red;   //  #FF00FF;   
   -pt-border-update:          true;  // Use it if you want to replace existing borders, instead of adding a new one
+  border-radius:              5px; // set for all corners
+  border-radius:              1px 2px 3 4; // top-left top-right  bottom-right  bottom-left 
+  border-radius:              1px 2px 3px; //  top-left top-right-and-bottom-left  bottom-right
+  border-radius:              1px 2px; //  top-left-and-bottom-right | top-right-and-bottom-left
 }
 #Group{
   padding:                    10px; // currently only one value for left,right,top and bottom
@@ -61,7 +68,7 @@ You can update the following Figma objects.
     font-size:                40px;
 }
 
-// Update any layer properties inside a frame or component
+// Update any  node properties
 #MyFrame .Back{
   border-color:         blue; 
   border-width:         10px;
