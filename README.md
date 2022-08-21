@@ -90,6 +90,8 @@ You can update the following Figma objects.
   background-color:  blue;
   background-color:  hsla(240,100%,50%,0.5);
   background-color:  hsl(240,100%,50%);
+  background-color:      linear-gradient(45deg, #000000,#B0AFB4);
+  background-color:      linear-gradient(134deg, #004B3A 0%, #2D8B61 51%, #9BD77E 100%);
 }
 
 
