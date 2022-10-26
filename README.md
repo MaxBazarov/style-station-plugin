@@ -27,7 +27,7 @@ Also Style Station can export styles from Figma to SASS or LESS file.
   font-weight:                Regular;
   line-height:                100%; // OR 10px OR 1.2 (multiplier for font-size) OR AUTO
   letter-spacing:             100%; // OR 10px  
-  text-decoration:            underline;// OR line-through  
+  text-decoration:            underline;// OR line-through  OR none
   text-indent:                32px;
   text-transform:             uppercase;  // "uppercase", "lowercase","title"(Figma custom), "none"
   text-indent:                100;  // The indentation of paragraphs (offset of the first line from the left). 
