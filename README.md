@@ -84,6 +84,7 @@ You can update the following Figma objects.
 ```
 
 ## Color definition types
+```less
 {
   background-color:  #FF00FF;
   background-color:  #FF00FFBB;
@@ -93,7 +94,7 @@ You can update the following Figma objects.
   background-color:      linear-gradient(45deg, #000000,#B0AFB4);
   background-color:      linear-gradient(134deg, #004B3A 0%, #2D8B61 51%, #9BD77E 100%);
 }
-
+```
 
 ## Community
 [Github Discussions](https://github.com/MaxBazarov/style-station-plugin/discussions)
